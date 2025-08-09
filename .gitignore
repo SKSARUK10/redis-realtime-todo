@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Redis dump files
+dump.rdb
+appendonly.aof
+
+# Docker data
+docker-data/
+docker-compose.override.yml
+
+# Coverage reports
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# VSCode
+.vscode/
+
+# npm cache
+.npm/
