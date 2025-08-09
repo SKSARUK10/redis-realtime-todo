@@ -46,7 +46,7 @@ redis-realtime-todo/
 ---
 
 ## ⚡ Architecture
-```plaintext
+
 Client (Browser, Postman)
         |
         v
@@ -61,7 +61,7 @@ Socket.IO -> Broadcasts real-time updates to all connected clients
 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/redis-realtime-todo.git
+git clone https://github.com/SKSARUK10/redis-realtime-todo.git
 cd redis-realtime-todo
 ```
 
