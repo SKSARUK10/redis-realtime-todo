@@ -6,7 +6,7 @@ const redisClient = require("./config/redis");
 const { createServer } = require("http");
 const { Server } = require("socket.io");
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 const MONGO_URI =
   process.env.MONGO_URI || "mongodb://localhost:27017/redis_todo";
 

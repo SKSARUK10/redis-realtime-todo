@@ -9,4 +9,8 @@ const TaskSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+// Indexes for faster queries
+TaskSchema.index({ createdAt: -1 });
+TaskSchema.index({ user: 1 });
+
 module.exports = mongoose.model("Task", TaskSchema);
